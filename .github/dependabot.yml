@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: keytar
+    versions:
+    - 7.3.0
+    - 7.4.0
+    - 7.5.0
+    - 7.6.0
+  - dependency-name: relay-runtime
+    versions:
+    - 10.1.3
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: react-relay
+    versions:
+    - 10.1.3
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: "@babel/plugin-proposal-object-rest-spread"
+    versions:
+    - 7.12.1
+    - 7.12.13
+    - 7.13.0
+  - dependency-name: "@babel/preset-react"
+    versions:
+    - 7.12.10
+    - 7.12.13
+  - dependency-name: electron-mksnapshot
+    versions:
+    - 11.0.0
