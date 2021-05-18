@@ -1,7 +1,7 @@
 {
   "name": "github",
   "main": "./lib/index",
-  "version": "0.36.6",
+  "version": "0.36.9",
   "description": "GitHub integration",
   "repository": "https://github.com/atom/github",
   "license": "MIT",
@@ -41,6 +41,7 @@
   "dependencies": {
     "@atom/babel-plugin-chai-assert-async": "1.0.0",
     "@atom/babel7-transpiler": "1.0.0-1",
+    "@babel/core": "7.x <7.12.10",
     "@babel/generator": "7.8.0",
     "@babel/plugin-proposal-class-properties": "7.8.0",
     "@babel/plugin-proposal-object-rest-spread": "7.8.0",
